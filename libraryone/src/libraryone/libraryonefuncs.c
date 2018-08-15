@@ -1,6 +1,6 @@
 #include "libraryonefunc.h"
 
-char *getLibraryString()
+char *libraryone_getl1string()
 {
     return "string from library one.";
 }

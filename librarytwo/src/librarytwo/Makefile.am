@@ -5,7 +5,7 @@ librarytwodir=$(libdir)
 librarytwo_LTLIBRARIES = liblibrarytwo@PACKAGE_SUFFIX@.la
 
 liblibrarytwo@PACKAGE_SUFFIX@_la_SOURCES=							\
-	librarytwofunc.c												\
+	librarytwofuncs.c												\
 	$(NULL)
 
 liblibrarytwo@PACKAGE_SUFFIX@_la_CFLAGS=							\
@@ -19,7 +19,7 @@ liblibrarytwo@PACKAGE_SUFFIX@_la_LIBADD=							\
 librarytwoincludedir=$(includedir)/librarytwo@PACKAGE_SUFFIX@/librarytwo
 
 librarytwoinclude_HEADERS=												\
-	librarytwofunc.h													\
+	librarytwointerface.h												\
 	$(NULL)
 
 CLEANFILES=																\

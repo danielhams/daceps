@@ -1,6 +1,6 @@
 #ifndef LIBRARYONE_H
 #define LIBRARYONE_H
 
-char *getLibraryString();
+char *libraryone_getl1string();
 
 #endif

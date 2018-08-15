@@ -5,7 +5,7 @@ libraryonedir=$(libdir)
 libraryone_LTLIBRARIES = liblibraryone@PACKAGE_SUFFIX@.la
 
 liblibraryone@PACKAGE_SUFFIX@_la_SOURCES=							\
-	libraryonefunc.c												\
+	libraryonefuncs.c												\
 	$(NULL)
 
 liblibraryone@PACKAGE_SUFFIX@_la_LIBADD=				\
@@ -14,7 +14,7 @@ liblibraryone@PACKAGE_SUFFIX@_la_LIBADD=				\
 libraryoneincludedir=$(includedir)/libraryone@PACKAGE_SUFFIX@/libraryone
 
 libraryoneinclude_HEADERS=												\
-	libraryonefunc.h													\
+	libraryoneinterface.h													\
 	$(NULL)
 
 CLEANFILES=																\
