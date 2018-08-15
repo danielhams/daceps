@@ -3,6 +3,7 @@
 #include <libraryone/libraryoneinterface.h>
 
 #include <string.h>
+#include <stdlib.h>
 
 char *librarytwo_getl2string()
 {
