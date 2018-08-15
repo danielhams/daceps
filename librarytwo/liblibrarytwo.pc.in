@@ -6,6 +6,6 @@ includedir=@includedir@
 Name: LibraryTwo
 Description: Example Library Two
 Version: @VERSION@
-Requires: libraryone-@LIBRARYONE_VERSION@
+Requires: liblibraryone-@LIBRARYONE_VERSION@
 Libs: -L${libdir} -llibrarytwo@PACKAGE_SUFFIX@
 Cflags: -I${includedir}/librarytwo@PACKAGE_SUFFIX@
