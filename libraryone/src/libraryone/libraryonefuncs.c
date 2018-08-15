@@ -1,4 +1,4 @@
-#include "libraryonefunc.h"
+#include "libraryoneinterface.h"
 
 char *libraryone_getl1string()
 {

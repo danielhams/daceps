@@ -1,4 +1,4 @@
-#include "librarytwofunc.h"
+#include "librarytwointerface.h"
 
 #include <libraryone/libraryoneinterface.h>
 
