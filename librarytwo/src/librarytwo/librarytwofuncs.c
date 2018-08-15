@@ -2,6 +2,8 @@
 
 #include <libraryone/libraryoneinterface.h>
 
+#include <string.h>
+
 char *librarytwo_getl2string()
 {
     return "string from library two.";
