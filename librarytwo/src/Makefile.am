@@ -1,0 +1,5 @@
+NULL=
+
+SUBDIRS=						\
+	librarytwo					\
+	$(NULL)
