@@ -1,4 +1,4 @@
-#include "libraryone.h"
+#include "libraryonefunc.h"
 
 char *getLibraryString()
 {
